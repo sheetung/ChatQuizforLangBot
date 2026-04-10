@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Plugin
+metadata:
+  author: sheetung
+  name: ChatQuiz-lb
+  repository: ''
+  version: 0.0.1
+  description:
+    en_US: 'Conversational quiz plugin for LangBot'
+    zh_Hans: 'LangBot 对话式测验插件'
+  label:
+    en_US: ChatQuiz lb
+    zh_Hans: ChatQuiz lb
+    th_TH: ChatQuiz lb
+    vi_VN: ChatQuiz lb
+    es_ES: ChatQuiz lb
+  icon: assets/icon.svg  # replace in assets/icon.svg
+spec:
+  config: []
+  components:
+    EventListener:
+      fromDirs:
+        - path: components/event_listener/
+execution:
+  python:
+    path: main.py
+    attr: ChatQuizLB
