@@ -1,18 +1,26 @@
-# ChatQuiz-lb
+# ChatQuizforLangBot
 
-LangBot 对话式测验插件，当前内置 `sbit` 测试。
+A conversational quiz plugin for LangBot, currently bundled with the `sbit` test.
 
-使用方式：
+## Installation
 
-- 私聊机器人发送 `/测试 sbit`
-- 按题目回复 `A/B/C/D` 或 `1/2/3/4`
-- 回复 `取消` 可中止当前测试
+Install it through the LangBot plugin marketplace.
 
-扩展方式：
+## Usage
 
-- 将新的测试定义放进 `quizzes/` 目录
-- 在题库注册表里增加一个新条目
+- Send `/测试 sbit` to the bot in a private chat
+- Reply with `A/B/C/D` or `1/2/3/4` for each question
+- Reply with `取消` to stop the current test
 
-致谢：
+## Extending
 
-- `sbit` 测试内容参考并改编自原项目：<https://github.com/UnluckyNinja/SBTI-test>
+- Put new quiz definitions into the `quizzes/` directory
+- Register the new quiz in the quiz registry
+
+## Acknowledgements
+
+- The `sbit` test content is based on and adapted from the original project: <https://github.com/UnluckyNinja/SBTI-test>
+
+## Feedback And Feature Requests
+
+[![QQ群](https://img.shields.io/badge/QQ群-965312424-green)](https://qm.qq.com/cgi-bin/qm/qr?k=en97YqjfYaLpebd9Nn8gbSvxVrGdIXy2&jump_from=webapi&authKey=41BmkEjbGeJ81jJNdv7Bf5EDlmW8EHZeH7/nktkXYdLGpZ3ISOS7Ur4MKWXC7xIx)
