@@ -4,7 +4,7 @@ metadata:
   author: sheetung
   name: ChatQuizforLangBot
   repository: 'https://github.com/sheetung/ChatQuizforLangBot'
-  version: 0.0.2
+  version: 0.0.3
   description:
     en_US: 'Conversational quiz plugin for LangBot'
     zh_Hans: 'LangBot 对话式测验插件'

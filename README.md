@@ -1,6 +1,6 @@
 # ChatQuizforLangBot
 
-A conversational quiz plugin for LangBot, currently bundled with the `sbit` test.
+A conversational quiz plugin for LangBot, currently bundled with the `sbti` test.
 
 ## Installation
 
@@ -8,7 +8,7 @@ Install it through the LangBot plugin marketplace.
 
 ## Usage
 
-- Send `/测试 sbit` to the bot in a private chat
+- Send `/测试 sbti` to the bot in a private chat
 - Reply with `A/B/C/D` or `1/2/3/4` for each question
 - Reply with `取消` to stop the current test
 
@@ -19,7 +19,7 @@ Install it through the LangBot plugin marketplace.
 
 ## Acknowledgements
 
-- The `sbit` test content is based on and adapted from the original project: <https://github.com/UnluckyNinja/SBTI-test>
+- The `sbti` test content is based on and adapted from the original project: <https://github.com/UnluckyNinja/SBTI-test>
 
 ## Feedback And Feature Requests
 

@@ -1,11 +1,11 @@
 from __future__ import annotations
 
 from quizzes.base import BaseQuiz
-from quizzes.sbit import SbitQuiz
+from quizzes.sbti import SbtiQuiz
 
 
 QUIZ_REGISTRY: dict[str, BaseQuiz] = {
-    "sbit": SbitQuiz(),
+    "sbti": SbtiQuiz(),
 }
 
 

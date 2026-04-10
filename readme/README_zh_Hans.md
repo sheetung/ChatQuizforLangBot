@@ -1,6 +1,6 @@
 # ChatQuizforLangBot
 
-LangBot 对话式测验插件，当前内置 `sbit` 测试。
+LangBot 对话式测验插件，当前内置 `sbti` 测试。
 
 ## 安装方法
 
@@ -8,7 +8,7 @@ LangBot 对话式测验插件，当前内置 `sbit` 测试。
 
 ## 使用方式：
 
-- 私聊机器人发送 `/测试 sbit`
+- 私聊机器人发送 `/测试 sbti`
 - 按题目回复 `A/B/C/D` 或 `1/2/3/4`
 - 回复 `取消` 可中止当前测试
 
@@ -19,7 +19,7 @@ LangBot 对话式测验插件，当前内置 `sbit` 测试。
 
 ## 致谢：
 
-- `sbit` 测试内容参考并改编自原项目：<https://github.com/UnluckyNinja/SBTI-test>
+- `sbti` 测试内容参考并改编自原项目：<https://github.com/UnluckyNinja/SBTI-test>
 
 ## 问题反馈及功能开发
 

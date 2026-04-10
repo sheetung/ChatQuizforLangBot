@@ -166,9 +166,9 @@ NORMAL_TYPES = [
 ]
 
 
-class SbitQuiz(BaseQuiz):
-    key = "sbit"
-    title = "SBIT 测试"
+class SbtiQuiz(BaseQuiz):
+    key = "sbti"
+    title = "sbti 测试"
 
     def build_questions(self) -> list[QuizQuestion]:
         questions = list(QUESTIONS)
@@ -178,9 +178,9 @@ class SbitQuiz(BaseQuiz):
 
     def render_intro(self) -> str:
         return (
-            "SBIT 私聊测试开始。\n"
+            "SBTI 私聊测试开始。\n"
             "这是一个对话式娱乐测试，我会逐题发给你，你只要回复选项字母或数字就行。\n"
-            "中途回复 `取消` 可以结束，重新发送 `/测试 sbit` 会从头开始。\n\n"
+            "中途回复 `取消` 可以结束，重新发送 `/测试 sbti` 会从头开始。\n\n"
             "本测试仅供娱乐。"
         )
 
@@ -261,7 +261,7 @@ class SbitQuiz(BaseQuiz):
 
         return "\n".join(
             [
-                "SBIT 测试结果",
+                "SBTI 测试结果",
                 f"{final_type['code']}（{final_type['cn']}）",
                 final_type["intro"],
                 badge,
